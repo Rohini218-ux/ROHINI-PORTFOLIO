@@ -19,7 +19,7 @@ export default function Projects() {
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "rohini - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -32,7 +32,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Amit Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Projects,rohini Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
           },
         ]}
       />
