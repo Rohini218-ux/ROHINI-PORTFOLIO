@@ -12,34 +12,16 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       DARK: "/images/projects/2.png",
     },
   },
-  // {
-  //   index: 1,
-  //   title: "Many Games",
-  //   href: "/projects",
-  //   tags: [
-  //     "Reactjs",
-  //     "Tailwindcss",
-  //     "Scss",
-  //     "Vite",
-  //     "React-router-dom",
-  //     "Redux",
-  //     "Vercel",
-  //   ],
-  //   image: {
-  //     LIGHT: "/images/projects/manyGamesLight.webp",
-  //     DARK: "/images/projects/manyGamesDark.webp",
-  //   },
-  // },
-  // {
-  //   index: 2,
-  //   title: "Kanban",
-  //   href: "/projects",
-  //   tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
-  //   image: {
-  //     LIGHT: "/images/projects/kanbanLight.webp",
-  //     DARK: "/images/projects/kanbanDark.webp",
-  //   },
-  // },
+  {
+    index: 1,
+    title: "Movie Hunt",
+    href: "/projects",
+    tags: ["React js", "Vite", "Tailwindcss", "API", "Vercel"],
+    image: {
+      LIGHT: "/images/projects/moviehunt-light.png",
+      DARK: "/images/projects/moviehunt-dark.png",
+    },
+  },
 ];
 
 export const PROJECTS_CARD: ProjectCardProps[] = [
@@ -54,8 +36,23 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/5.png",
     ],
     description:
-      "Regarding my project, I worked on a MERN stack-based Academic Resource Hub. It is similar to a classroom platform but includes additional features tailored for freshers. The web application is designed to improve student access to academic resources at Kongu Engineering College. It ensures a secure, institution-specific login system, where only current students can access the platform using their kongu.edu email for authentication. The technologies used front end React.js and backend Node.js, Express.js, MongoDB.",
+      "Regarding my project, I worked on a MERN stack-based Academic Resource Hub. It is similar to a classroom platform but includes additional features tailored for freshers...",
     sourceCodeHref: "https://github.com/Rohini218-ux/Academic-Resource-Hub",
     liveWebsiteHref: "",
+  },
+
+  {
+    name: "Movie Hunt",
+    favicon: "/images/projects/logos/movie.ico",
+    imageUrl: [
+      "/images/projects/moviehunt-1.png",
+      "/images/projects/moviehunt-2.png",
+      "/images/projects/moviehunt-3.png",
+       "/images/projects/moviehunt-4.png",
+    ],
+    description:
+      "Film Verse is a movie exploration platform for discovering movies developed a React-based movie discovery app that allows users to explore various categories of movies Utilized TMDB API for comprehensive movie details such as ratings, reviews, budget, and release date ",
+    sourceCodeHref: "https://github.com/Rohini218-ux/Movie_Hunt",
+    liveWebsiteHref: "https://movie-hunt.vercel.app",
   },
 ];
